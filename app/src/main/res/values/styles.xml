@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name ="android:windowBackground">@drawable/app_window</item>
+
+
+
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Widget.Chip.Action" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="rippleColor">@color/colorPrimaryDark</item>
+        <item name="chipIconVisible">false</item>
+        <item name="checkedIconVisible">false</item>
+        <item name="chipStrokeColor">@color/colorPrimary</item>
+        <item name="chipSurfaceColor">@color/selector_primary_inverse</item>
+        <item name="android:textColor">@color/selector_primary</item>
+    </style>
+
+</resources>
